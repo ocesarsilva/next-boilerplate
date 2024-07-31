@@ -3,6 +3,5 @@
 ## Features
 
 - Drizzle ORM
-- Light / Dark Mode
-- ShadCN
+- shadcn/ui
 - Tailwind CSS

@@ -18,9 +18,9 @@
     "db:generate": "dotenv drizzle-kit generate",
     "db:introspect": "dotenv drizzle-kit introspect",
     "db:push": "dotenv drizzle-kit push",
-    "db:migrate": "dotenv tsx src/db/migrate.ts",
+    "db:migrate": "dotenv tsx db/migrate.ts",
     "db:drop-migration": "drizzle-kit drop",
-    "db:seed": "dotenv tsx src/db/seed.ts",
+    "db:seed": "dotenv tsx db/seed.ts",
     "db:studio": "dotenv drizzle-kit studio"
   },
   "dependencies": {

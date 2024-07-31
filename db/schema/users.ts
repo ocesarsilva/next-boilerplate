@@ -7,4 +7,5 @@ export const users = pgTable("users", {
     .$defaultFn(() => generateId())
     .primaryKey(), // prefix_ + nanoid (12)
   name: text("name").notNull(),
+  email: text("email"),
 })
